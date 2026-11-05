@@ -1,4 +1,4 @@
-# CacheCoherent-Lite
+# Two-client cache coherence directory
 
 Two-requester, four-line write-invalidate directory controller.
 
