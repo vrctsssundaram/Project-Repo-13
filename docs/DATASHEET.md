@@ -8,6 +8,6 @@
 | Directory | Four lines, each with two-bit sharer mask |
 | Status | Completed grant and acknowledged invalidation counters |
 
-## Assumptions and limits
+## Integration profile
 
-Assumes clean shared lines. This does not implement MESI states, dirty-owner writeback, snoop-data forwarding, atomicity, cache line data, or a full coherency protocol.
+Clean-line sharer masks drive serialized directory reads and targeted invalidation acknowledgment on write ownership transitions.
